@@ -56,7 +56,7 @@ export default function SementePage() {
       </div>
 
       {/* ── CARDS DE RESUMO ─────────────────────────────── */}
-      <div className="px-5 -mt-6 mb-8">
+      <div className="relative z-10 px-5 -mt-6 mb-8">
         <div className="grid grid-cols-3 gap-3">
           <ResumoCard
             icon={<Sun size={20} />}
